@@ -30,7 +30,6 @@ hook OnPlayerConnect(playerid) {
     CreateTDs(playerid);
     return true;
 }
-```
 CreateTDs(playerid) {
     My_Textdraw[playerid][0] = CreatePlayerTextDraw(playerid, 0.0, 0.0, "LD_SPAC:white");
     My_Textdraw[playerid][1] = CreatePlayerTextDraw(playerid, 0.0, 0.0, "LD_SPAC:white");
