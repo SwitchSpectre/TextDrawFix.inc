@@ -38,13 +38,11 @@ CreateTDs(playerid) {
     ShowPlayerTDList(playerid, My_Textdraw, false);
     SetTimerEx("DestroyTDs", 5000, false, "i", playerid);
 }
-
 forward DestroyTDs(playerid);
 public DestroyTDs(playerid) {
     DestroyPlayerTDList(playerid, My_Textdraw);
     return true;
 }
-
 ```
 Os Loppings Sao Feitos de Forma Automatica!
 
